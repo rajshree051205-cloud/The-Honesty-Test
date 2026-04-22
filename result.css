@@ -1,0 +1,86 @@
+body{
+   background-image: url('smile.jpg');
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+         height: 100vh;
+    display: flex;
+    justify-content: center;  /* horizontal */
+    align-items: center;      /* vertical */
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2e1e1e;
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    height: 500px;
+    width: 600px;
+   
+   border-radius: 10px;
+   border: 2px solid rgb(70, 14, 60);
+    padding: 40px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.1); /* transparent */
+    backdrop-filter: blur(10px); /* glass effect */
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+   
+}
+button{
+ 
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #ff7a18;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+   
+
+
+   input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+    color: rgb(22, 17, 17);
+}
+
+p {
+    font-size: 28px;
+    color: #2b2424;
+}
+#result {
+   
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
